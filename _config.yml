@@ -36,7 +36,7 @@ navbar-links:
 avatar: "/img/dariushazimi-certified-aws-solution-architect.png"
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
-# title-img: /path/to/image
+title-img: "/img/dariushazimi-certified-aws-solution-architect.png"
 
 # --- Background colour/image options --- #
 
