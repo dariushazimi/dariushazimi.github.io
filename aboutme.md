@@ -27,5 +27,6 @@ published: true
       <input type="text" name="_gotcha" style="display:none">
       <input type="hidden" name="_next" value="./aboutme?message=Your message was sent successfully, thanks!" />
 
-      <div style="font-size: 12px; margin: -10px 0 10px;">
+      <div style="font-size: 12px; margin: -10px 10 10px;">
+      
       <button type="submit" class="btn btn-lg btn-primary">Submit</button>
