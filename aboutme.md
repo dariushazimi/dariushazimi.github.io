@@ -7,7 +7,7 @@ subtitle: Sr. Solution Architect working with AWS and google cloud
 - I am a solution architect working with AWS and google technologies
 - Favorite ediors are emacs and vim
 
-<form action="https://formspree.io/azimid@gmail.com.com" method="POST" class="form" id="contact-form">
+<form action="https://formspree.io/azimid@gmail.com" method="POST" class="form" id="contact-form">
   <p>You can also send me a quick message using the form below:</p>
   <div class="row">
     <div class="col-xs-6">
