@@ -23,10 +23,10 @@ published: true
         </div>
       </div>
       <input type="hidden" name="_subject" value="New submission">
-      <textarea type="text" name="content" class="form-control input-lg" placeholder="Message" title="Message" required="required" rows="3"></textarea>
+  <textarea type="text" name="content" class="form-control input-lg" placeholder="Message" title="Message" required="required" rows="3"></textarea>
       <input type="text" name="_gotcha" style="display:none">
       <input type="hidden" name="_next" value="./aboutme?message=Your message was sent successfully, thanks!" />
-
-      <div style="font-size: 12px; margin: -10px 10 10px;">
-      
-      <button type="submit" class="btn btn-lg btn-primary">Submit</button>
+  <div style="font-size: 12px; margin: -10px 10 10px;">
+    <button type="submit" class="btn btn-lg btn-primary">Submit</button>
+    </form>
+  </div>
