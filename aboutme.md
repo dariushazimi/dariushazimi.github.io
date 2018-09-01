@@ -7,6 +7,9 @@ subtitle: Sr. Solution Architect working with AWS and google cloud
 - I am a solution architect working with AWS and google technologies
 - Favorite ediors are emacs and vim
 
+<div id="contactme-section">
+<h1 id="contact">Contact</h1>
+
 <form action="https://formspree.io/azimid@gmail.com" method="POST" class="form" id="contact-form">
   <p>You can also send me a quick message using the form below:</p>
   <div class="row">
@@ -22,9 +25,11 @@ subtitle: Sr. Solution Architect working with AWS and google cloud
   <input type="text" name="_gotcha" style="display:none">
   <input type="hidden" name="_next" value="./aboutme?message=Your message was sent successfully, thanks!" />
   
+  <div style="font-size: 12px; margin: -10px 0 10px;">
+  Please do not use this form to send me full code samples or ask me to fix your app for free. Due to the volume of questions. I receive I unfortuantely cannot offer free support.</div>
 
 
   <button type="submit" class="btn btn-lg btn-primary">Submit</button>
 </form>
-  <div style="font-size: 12px; margin: -10px 0 10px;">
-  Please do not use this form to send me full code samples or ask me to fix your app for free. Due to the volume of questions. I receive I unfortuantely cannot offer free support.</div>
+
+</div>
