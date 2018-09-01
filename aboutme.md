@@ -28,5 +28,4 @@ published: true
       <input type="hidden" name="_next" value="./aboutme?message=Your message was sent successfully, thanks!" />
   <div style="font-size: 12px; margin: -10px 10 10px;">
     <button type="submit" class="btn btn-lg btn-primary">Submit</button>
-    </form>
-  </div>
+   </div>
