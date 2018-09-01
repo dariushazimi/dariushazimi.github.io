@@ -24,8 +24,8 @@ subtitle: Sr. Solution Architect working with AWS and google cloud
   
   <div style="font-size: 12px; margin: -10px 0 10px;">
   
-  
+  <p>
   Please do not use this form to send me full code samples or ask me to fix your app for free. Due to the volume of questions I receive I unfortuantely cannot offer free support.</div>
-  
+  </p>
   <button type="submit" class="btn btn-lg btn-primary">Submit</button>
 </form>
