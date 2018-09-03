@@ -24,7 +24,7 @@ description: All things Cloud, AWS, Google and more!
 # List of links in the navigation bar
 navbar-links:
   Blog:
-  About Me: "aboutme/contact"
+  About Me: "aboutme"
   Resources:
     - Home: "http://dariushazimi.github.io"
     - Learn markdown: "http://www.markdowntutorial.com/"
