@@ -26,6 +26,9 @@ navbar-links:
 
   About Me: "aboutme"
   Blog:
+  AWS scripts:
+    - Resizing an EC2 with boto3: "ResizingEc2WithBoto3"
+
   Tutorials:
     - Aboutme: "aboutme"
     - Learn markdown: "http://www.markdowntutorial.com/"
