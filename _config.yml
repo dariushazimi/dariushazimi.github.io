@@ -26,7 +26,7 @@ navbar-links:
   Blog:
   About Me: "aboutme"
   Resources:
-    - Home: "http://dariushazimi.github.io"
+    - Aboutme: "aboutme"
     - Learn markdown: "http://www.markdowntutorial.com/"
     - GitHub Pages: "https://pages.github.com/"
   #Tips and Tricks: "http://dariushazimi.github.io"
