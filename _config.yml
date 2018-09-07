@@ -28,7 +28,7 @@ navbar-links:
   Blog:
 
   Tutorials:
-    - Resizing an EC2 with boto3: "resizingec2withboto3"
+    - Resizing EC2: "resizingec2withboto3"
     - Learn markdown: "http://www.markdowntutorial.com/"
     - GitHub Pages: "https://pages.github.com/"
   #Tips and Tricks: "http://dariushazimi.github.io"
