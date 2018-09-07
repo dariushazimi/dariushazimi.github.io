@@ -36,6 +36,7 @@ navbar-links:
   #Tips and Tricks: "http://dariushazimi.github.io"
   
   Consulting: "aboutme"
+  Donate: "https://www.paypal.me/azimid/"
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
 avatar: "/img/avatar-icon.png"
