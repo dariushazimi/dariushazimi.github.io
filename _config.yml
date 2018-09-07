@@ -25,7 +25,8 @@ description: All things Cloud, AWS, Google and more!
 navbar-links:
   Blog:
   About Me: "aboutme"
-  Resources:
+  Consulting Services: "aboutme"
+  Tutorials:
     - Aboutme: "aboutme"
     - Learn markdown: "http://www.markdowntutorial.com/"
     - GitHub Pages: "https://pages.github.com/"
