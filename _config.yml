@@ -23,9 +23,9 @@ description: All things Cloud, AWS, Google and more!
 
 # List of links in the navigation bar
 navbar-links:
-  Blog:
-  About Me: "aboutme"
 
+  About Me: "aboutme"
+  Blog:
   Tutorials:
     - Aboutme: "aboutme"
     - Learn markdown: "http://www.markdowntutorial.com/"
