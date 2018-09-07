@@ -27,7 +27,7 @@ navbar-links:
   About Me: "aboutme"
   Blog:
   AWS scripts:
-    - Resizing an EC2 with boto3: "ResizingEc2WithBoto3"
+    - Resizing an EC2 with boto3: "resizingec2withboto3"
 
   Tutorials:
     - Aboutme: "aboutme"
