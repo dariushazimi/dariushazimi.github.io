@@ -25,13 +25,14 @@ description: All things Cloud, AWS, Google and more!
 navbar-links:
   Blog:
   About Me: "aboutme"
-  Consulting Services: "aboutme"
+
   Tutorials:
     - Aboutme: "aboutme"
     - Learn markdown: "http://www.markdowntutorial.com/"
     - GitHub Pages: "https://pages.github.com/"
   #Tips and Tricks: "http://dariushazimi.github.io"
-
+  
+  Consulting: "aboutme"
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
 avatar: "/img/avatar-icon.png"
