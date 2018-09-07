@@ -1,4 +1,4 @@
-# Resizing an EC2 instance using boto3
+# Resizing EC2 with boto3
 
 Th script is using boto3 to stop an EC2 instance, resize the instance, then start the instance back up. 
 
@@ -6,7 +6,7 @@ Th script is using boto3 to stop an EC2 instance, resize the instance, then star
 
 ## Prerequisites
 
-- You need to have Boto3 installed and 
+- You need to have Boto3 installed.
 
 
 
