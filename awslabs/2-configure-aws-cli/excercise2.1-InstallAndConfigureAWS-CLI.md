@@ -1,4 +1,3 @@
-# Day 1
 # Excercise 2.1
 
 ## Shared Responsibility Model
