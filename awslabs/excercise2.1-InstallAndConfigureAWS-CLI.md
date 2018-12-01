@@ -1,5 +1,12 @@
 # Day 1
 # Excercise 2.1
+
+## Shared Responsibility Model
+![Getting Started](
+https://d1.awsstatic.com/security-center/Shared_Responsibility_Model_V2.59d1eccec334b366627e9295b304202faf7b899b.jpg)
+
+
+
 ## Install and Configure AWS CLI on Windows With MSI
 1. Begin by logging in to the AWS Management Console with your user name, password, and MFA device (if applicable). 
 2. Navigate to the IAM service. 
@@ -30,6 +37,7 @@ $ aws s3 ls
 ```
 
 ## Create user account
+
 `aws iam create-user --user-name user1`
 
 1. Assign password
