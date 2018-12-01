@@ -62,7 +62,8 @@ $ aws s3 ls
 3. Login as the newly created user
 
 ## Excercise 3.1
-###Creating AWS Identity and Access Management (IAM) Users 
+
+### Creating AWS Identity and Access Management (IAM) Users 
 Create three IAM user accounts with the user names Alice, Bob, and Charlie with the AWS CLI using the aws iam create-user command example:
  `aws iam create-user --user-name Alice` 
  
@@ -109,6 +110,13 @@ aws iam create-access-key --user-name Alice
 ## Excercise 3.3
 ### Create IAM Groups
 In this exercise, you will create IAM groups and add your IAM users to the groups. You will use the aws iam create-group and aws iam add-user-to-group commands to complete this exercise. Create the following:
+
+| Groups    | Users   |
+|-----------|---------|
+| admins    | Alice   |
+| Monitors  | Bob     |
+| Operators | Charlie |
+
 `aws iam create-group --group-name admins`
 ```
 {
@@ -123,11 +131,3 @@ In this exercise, you will create IAM groups and add your IAM users to the group
 ```
 
 `aws iam add-user-to-group --group-name admins --user-name Alice`
-
-|Groups| Users|
-|---|--|
-|admins|Alice|
-|Monitors|Bob|
-|Operators|Charlie|
-
-
