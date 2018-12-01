@@ -1,5 +1,12 @@
 # Day 1
 # Excercise 2.1
+
+## Shared Responsibility Model
+![Getting Started](
+https://d1.awsstatic.com/security-center/Shared_Responsibility_Model_V2.59d1eccec334b366627e9295b304202faf7b899b.jpg)
+
+
+
 ## Install and Configure AWS CLI on Windows With MSI
 1. Begin by logging in to the AWS Management Console with your user name, password, and MFA device (if applicable). 
 2. Navigate to the IAM service. 
@@ -17,7 +24,7 @@
 ## On Linux or Mac
 If Python isn’t installed on your system, install it using the directions at http://www.python.org/. If pip isn’t installed on your system, install it using the directions at https://pip.pypa.io/en/stable/installing/. Install the AWS CLI using the command `pip install awscli --upgrade --user`.
 
-# Set your profile
+## Set your profile
 ```
 Linux, OS X Example:
 
@@ -29,8 +36,10 @@ $ set AWS_DEFAULT_PROFILE=account1
 $ aws s3 ls
 ```
 
-# Create user account
+## Create user account
+
 `aws iam create-user --user-name user1`
-Assign password
-Add user to EC2-Admin group
-Login as the newly created user
+
+1. Assign password
+2. Add user to a group, if you don't have a group created yet, create one called EC2-Admin group
+3. Login as the newly created user
