@@ -3,8 +3,8 @@
 
 <!-- code_chunk_output -->
 
-- [Create a distribution file for python script](#create-a-distribution-file-for-python-script)
-    - [Install setuptools](#install-setuptools)
+* [Create a distribution file for python script](#create-a-distribution-file-for-python-script)
+	* [Install setuptools](#install-setuptools)
 
 <!-- /code_chunk_output -->
 
