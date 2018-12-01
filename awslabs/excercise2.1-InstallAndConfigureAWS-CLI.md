@@ -17,7 +17,7 @@
 ## On Linux or Mac
 If Python isn’t installed on your system, install it using the directions at http://www.python.org/. If pip isn’t installed on your system, install it using the directions at https://pip.pypa.io/en/stable/installing/. Install the AWS CLI using the command `pip install awscli --upgrade --user`.
 
-# Set your profile
+## Set your profile
 ```
 Linux, OS X Example:
 
@@ -29,7 +29,7 @@ $ set AWS_DEFAULT_PROFILE=account1
 $ aws s3 ls
 ```
 
-# Create user account
+## Create user account
 `aws iam create-user --user-name user1`
 
 1. Assign password
