@@ -31,6 +31,7 @@ $ aws s3 ls
 
 # Create user account
 `aws iam create-user --user-name user1`
+
 1. Assign password
 2. Add user to a group, if you don't have a group created yet, create one called EC2-Admin group
 3. Login as the newly created user
