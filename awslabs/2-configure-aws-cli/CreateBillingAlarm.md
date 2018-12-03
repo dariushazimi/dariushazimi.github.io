@@ -1,7 +1,10 @@
 # Create a billing alarm - lab
 Under your account go to billing dashboard
-> Prefrences > click on receive billing alerts
-> Click on the link "Manage billing alert" > billing > create alarm
-> Click on create alarms
-> Type your email address and confirm.
-> 
+1. Prefrences
+2. click on receive billing alerts
+3. Click on the link "Manage billing alert"
+4. billing
+5. create alarm
+6. Click on create alarms
+7. Type your email address and confirm.
+Billing alarms are an import part of the AWS services.
