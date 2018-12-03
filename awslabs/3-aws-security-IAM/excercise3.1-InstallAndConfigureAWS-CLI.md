@@ -90,5 +90,5 @@ This exercise focuses on using AWS Managed Policies as the basis of the permissi
  5. Click on the link, and sign in as Alice. 
  6. Go back to the IAM console. 
  7. Navigate to Roles, and select the Amazon EC2 AWS Service Role. 
- 8. Create a new role, and attach the AmazonEC2FullAccess and AmazonS3FullAccess policy to this role. 
+ 8. Create a new role, and attach the AmazonEC2FullAccess and AmazonS3FullAccess policy to this role.
  9. Name your IAM Role bastionHost. (Your role will be tested in the next exercises.)
