@@ -1,6 +1,4 @@
-Overview 
-=========
-
+# AWS Security Guidelines Foundation Framemework
 This document provides prescriptive guidance for configuring security options
 for a subset of Amazon Web Services with an emphasis on foundational, testable,
 and architecture agnostic settings. Specific Amazon Web Services in scope for
