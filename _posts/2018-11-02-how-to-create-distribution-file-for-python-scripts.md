@@ -1,14 +1,13 @@
-# Create a distribution file for python script
+# How to create distribution files for python scripts?
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
 
-* [Create a distribution file for python script](#create-a-distribution-file-for-python-script)
-	* [Install setuptools](#install-setuptools)
+  - [Install setuptools](#install-setuptools)
 
 <!-- /code_chunk_output -->
 
-This shows you how to create a distribution file so that users can install the script on their machines.
+Here I will show you how to create distribution files for your python scripts so that so that other users can install the script on their machines, just like when we install python modules using pip3.
 
 We will do that using the setup tools
 ## Install setuptools
