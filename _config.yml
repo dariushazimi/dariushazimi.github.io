@@ -28,6 +28,7 @@ navbar-links:
   Blog:
 
   Tutorials:
+    - AWS Security Best Practices: "AWS-Secuirty-Guidelines-Foundations-Benchmark"
     - Resizing EC2: "resizingec2withboto3"
     - Learn markdown: "http://www.markdowntutorial.com/"
     - GitHub Pages: "https://pages.github.com/"
