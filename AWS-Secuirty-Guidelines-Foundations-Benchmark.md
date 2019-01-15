@@ -7,17 +7,11 @@ and architecture agnostic settings. Specific Amazon Web Services in scope for
 this document include:
 
 -   AWS Identity and Access Management (IAM)
-
 -   AWS Config
-
 -   AWS CloudTrail
-
 -   AWS CloudWatch
-
 -   AWS Simple Notification Service (SNS)
-
 -   AWS Simple Storage Service (S3)
-
 -   AWS VPC (Default)
 
 Intended Audience 
@@ -105,7 +99,7 @@ The following configuration profiles are defined by this Benchmark:
 
 -   may negatively inhibit the utility or performance of the technology.
 
-Recommendation 
+Recommendations
 ================
 
 Summary Table 
@@ -113,7 +107,7 @@ Summary Table
 
 | **Control**  | **Set Correctly**                                                                                                |    |     |     |
 |--------------|------------------------------------------------------------------------------------------------------------------|----|-----|-----|
-|              | Yes                                                                                                              | No | N/A |     |
+|              |                                                                                                              | No | Yes |    N/A |
 | **1**        | **Identity and Access Management**                                                                               |    |     |     |
 | 1.1          | Avoid the use of the "root" account (Scored)                                                                     |   |    |     |
 | 1.2          | Ensure multi-factor authentication (MFA) is enabled for all IAM users that have a console password (Scored)      |   |    |  |
@@ -409,16 +403,16 @@ Via CLI
 1.  For each user having password_enabled set to TRUE , ensure
     password_last_used_date is less than 90 days ago.
 
->    When password_enabled is set to TRUE and password_last_used is set to
->   No_Information , ensure password_last_changed is less than 90 days ago.
+2. When password_enabled is set to TRUE and password_last_used is set to
+No_Information , ensure password_last_changed is less than 90 days ago.
 
->   3. For each user having an access_key_1_active or access_key_2_active to
->   TRUE , ensure the corresponding access_key_n_last_used_date is less than 90
->   days ago.
+1. For each user having an access_key_1_active or access_key_2_active to
+TRUE , ensure the corresponding access_key_n_last_used_date is less than 90
+days ago.
 
->    When a user having an access_key_x_active (where x is 1 or 2) to TRUE and
->   corresponding access_key_x_last_used_date is set to N/A',
->   ensureaccess_key_x_last_rotated\` is less than 90 days ago.
+When a user having an access_key_x_active (where x is 1 or 2) to TRUE and
+corresponding access_key_x_last_used_date is set to N/A',
+ensureaccess_key_x_last_rotated\` is less than 90 days ago.
 
 **Remediation:**
 
@@ -434,22 +428,13 @@ Perform the following to remove or deactivate credentials:
 
 5.  Click on Security Credentials
 
-6.  As an Administrator
+6.  As an Administrator Click on Make Inactive for credentials that have not been used in 90 Days
 
- Click on Make Inactive for credentials that have not been used in 90 Days
+7. As an IAM User
+Click on Make Inactive or Delete for credentials which have not been used
+in 90 Days
 
->   7. As an IAM User
 
->    Click on Make Inactive or Delete for credentials which have not been used
->   in 90 Days
-
-**References:**
-
-1.  CCE-78900-8
-
-2.  CIS CSC v6.0 \#16.6
-
-**CIS Controls:**
 
 16.9 *Disable Dormant Accounts*
 
@@ -503,9 +488,9 @@ Perform the following to determine if access keys are rotated as prescribed:
 
 Via CLI
 
-aws iam generate-credential-report
+`aws iam generate-credential-report`
 
-aws iam get-credential-report --query 'Content' --output text \| base64 -d
+`aws iam get-credential-report --query 'Content' --output text \| base64 -d`
 
 **Remediation:**
 
@@ -521,16 +506,13 @@ Perform the following to rotate access keys:
 
 5.  Click on Security Credentials
 
-6.  As an Administrator
+6.  As an Administrator Click on Make Inactive for keys that have not been rotated in 90 Days
 
- Click on Make Inactive for keys that have not been rotated in 90 Days
+7. As an IAM User
 
->   7. As an IAM User
+Click on Make Inactive or Delete for keys which have not been rotated or used in 90 Days
 
->    Click on Make Inactive or Delete for keys which have not been rotated or
->   used in 90 Days
-
-1.  Click on \`\` Create Access Key
+1.  Click on `\` Create Access Key
 
 2.  Update programmatic call with new Access Key credentials
 
@@ -538,7 +520,6 @@ Via CLI
 
 aws iam update-access-key aws iam create-access-key aws iam delete-access-key
 
-**CIS Controls:**
 
 16 *Account Monitoring and Control*
 
@@ -604,7 +585,7 @@ Via AWS Console
 
 Via CLI
 
-aws iam update-account-password- --require-uppercase-characters
+`aws iam update-account-password- --require-uppercase-characters`
 
 Note: All commands starting with "aws iam update-account-password-policy" can be
 combined into a single command.
@@ -645,7 +626,7 @@ Via the AWS Console
 
 Via CLI
 
-aws iam get-account-password-policy
+`aws iam get-account-password-policy`
 
 Ensure the output of the above command includes "RequireLowercaseCharacters":
 true
@@ -710,7 +691,7 @@ Via AWS Console
 
 Via CLI
 
-aws iam get-account-password-policy
+`aws iam get-account-password-policy`
 
 Ensure the output of the above command includes "RequireSymbols": true
 
@@ -733,8 +714,7 @@ Via AWS Console
 
 Via CLI
 
-aws iam update-account-password- --require-symbols
-
+`aws iam update-account-password- --require-symbols`
 Note: All commands starting with "aws iam update-account-password-policy" can be
 combined into a single command.
 
@@ -773,7 +753,7 @@ Via AWS Console
 
 Via CLI
 
-aws iam get-account-password-policy
+`aws iam get-account-password-policy`
 
 Ensure the output of the above command includes "RequireNumbers": true
 
@@ -836,7 +816,7 @@ Via AWS Console
 
 Via CLI
 
-aws iam get-account-password-policy
+`aws iam get-account-password-policy`
 
 Ensure the output of the above command includes "MinimumPasswordLength": 14 (or
 higher)
@@ -865,17 +845,6 @@ aws iam update-account-password-policy --minimum-password-length 14
 Note: All commands starting with "aws iam update-account-password-policy" can be
 combined into a single command.
 
-**References:**
-
-1.  CCE-78907-3
-
-2.  CIS CSC v6.0 \#5.7, \#16.12
-
-**CIS Controls:**
-
-16 *Account Monitoring and Control*
-
-Account Monitoring and Control
 
 #### 1.10 Ensure IAM password policy prevents password reuse (Scored) 
 
@@ -912,7 +881,7 @@ Via AWS Console
 
 Via CLI
 
-aws iam get-account-password-policy
+`aws iam get-account-password-policy`
 
 Ensure the output of the above command includes "PasswordReusePrevention": 24
 
@@ -940,11 +909,7 @@ aws iam update-account-password-policy --password-reuse-prevention 24
 Note: All commands starting with "aws iam update-account-password-policy" can be
 combined into a single command.
 
-**References:**
 
->   1. CCE-78908-1
-
-**CIS Controls:**
 
 4.4 *Use Unique Passwords*
 
@@ -1026,15 +991,7 @@ aws iam update-account-password-policy --max-password-age 90
 Note: All commands starting with "aws iam update-account-password-policy" can be
 combined into a single command.
 
-**References:**
 
->   1. CCE-78909-9
-
-**CIS Controls:**
-
-16 *Account Monitoring and Control*
-
-Account Monitoring and Control
 
 #### 1.12 Ensure no root account access key exists (Scored) 
 
@@ -1079,10 +1036,10 @@ Via CLI
 
 1.  Run the following commands:
 
-aws iam generate-credential-report
+`aws iam generate-credential-report`
 
-aws iam get-credential-report --query 'Content' --output text \| base64 -d \|
-cut -d, -f1,9,14 \| grep -B1 '\<root_account\>'
+`aws iam get-credential-report --query 'Content' --output text \| base64 -d \|
+cut -d, -f1,9,14 \| grep -B1 '\<root_account\>'`
 
 1.  For the \<root_account\> user, ensure the access_key_1_active and
     access_key_2_active fields are set to FALSE .
@@ -1121,11 +1078,7 @@ Via the AWS Console
     html
     ](http://docs.aws.amazon.com/IAM/latest/APIReference/API_GetAccountSummary.html)
 
-4.  CCE-78910-7
 
-5.  CIS CSC v6.0 \#5.1
-
-**CIS Controls:**
 
 4.3 *Ensure the Use of Dedicated Administrative Accounts*
 
