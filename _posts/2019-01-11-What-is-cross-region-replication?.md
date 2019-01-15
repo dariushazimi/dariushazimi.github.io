@@ -1,6 +1,6 @@
 # What you need to know about CRR, Cross Region Replication?
 When you create an s3 bucket and trun on replication, it replicates from one region to another, by default this is done using SSL. 
-So there is no need to trun this on or set a policy.
+So there is no need to turn this on or set a policy.
 
 -	You can only replicate from the source bucket to only ONE another bucket. (its not like read replicas in RDS)
 -	It is a one to one replationship
