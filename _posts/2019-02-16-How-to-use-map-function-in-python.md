@@ -17,6 +17,7 @@ Lat say we have the following list:
 
 
 We can use the map function as you can see below to get a list of prices.
+
     prices = list(map(lambda item: item[1], items))
     print(prices)
 
