@@ -15,7 +15,6 @@ Lat say we have the following list:
         ("product3", 210),
     ]
 
-
 We can use the map function as you can see below to get a list of prices.
 
     prices = list(map(lambda item: item[1], items))
