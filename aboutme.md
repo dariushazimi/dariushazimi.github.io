@@ -6,7 +6,7 @@ published: true
 ---
 
 - Experienced Senior Information Technology lead and solution architect.
-- Working with deep learning using AWS, Google Cloud
+- Developing solutions using deep learning using AWS, Google Cloud
 
 
 _Values_ I live by:
