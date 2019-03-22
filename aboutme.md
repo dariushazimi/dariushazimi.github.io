@@ -8,6 +8,25 @@ published: true
 - Experienced Senior Information Technology lead and solution architect.
 - Currently working with deploying deep learning using AWS, Google Cloud
 
+
+_Values_ I live by:
+
+- Humble – Listen to the data
+- Happy – Tap-dance to work
+- Gritty – Be persistent, not complacent
+- Agile – Make small bets, then iterate
+
+And try to always:
+
+- express the core values
+- be hungry for knowledge
+- want to learn new skills
+- be respectful
+- collaborate with others
+- share knowledge with others
+- educate and promote AI and ML concepts both internally and externally
+- have a high work ethic and are self-motivated
+
 <div id="contactme-section">
 <h1 id="contact">Contact</h1>
 
