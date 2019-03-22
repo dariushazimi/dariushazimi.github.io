@@ -1,4 +1,4 @@
-# Two type of Machine learning
+# Supervised vs Unsupervised Machine Learning
 
 ## Supervised Machine Learning
 
