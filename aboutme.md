@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: Sr. Solution Architect working with AWS and google cloud
+subtitle: Experienced Solution Architect Passionate about Machine learning, Deep Learning and all things cloud. 
 published: true
 ---
 
