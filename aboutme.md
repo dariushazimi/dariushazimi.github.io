@@ -5,9 +5,8 @@ subtitle: Sr. Solution Architect working with AWS and google cloud
 published: true
 ---
 
-- I am a solution architect working with AWS and google technologies
-- Drop me a line and lets discuss your projects and how I can help.
-
+- Experienced Senior Information Technology lead and solution architect.
+- Currently working with deploying deep learning using AWS, Google Cloud
 
 <div id="contactme-section">
 <h1 id="contact">Contact</h1>
