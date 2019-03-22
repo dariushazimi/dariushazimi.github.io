@@ -1,3 +1,10 @@
+---
+layout: post
+title: Supervised vs Unsupervised Machine Learning
+# subtitle: How to get the elements from a list using Map
+tags: [supervsied machine learning, unsupervised machien learning, ML]
+---
+
 # Supervised vs Unsupervised Machine Learning
 
 ## Supervised Machine Learning
