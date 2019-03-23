@@ -27,6 +27,4 @@ If you need to alter the column used in an index, you can use `set_index()`.
 
 `set_index()` allows you to change the column or columns you want to be the index column.
 
-
-
-
+See example of [data cleaning with the follwoing](data-cleansing.ipynb) notebook
