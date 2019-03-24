@@ -90,11 +90,7 @@ determine the accuracy of the model.
 There are 2 broad types of data that ML algorithms work with:
 
 1. Continuous data
-
-can take on a inifinite set of values (hight, weight, income, ....)
-
-
+   can take on a inifinite set of values (hight, weight, income, ....)
 2. Categorical data
-
-Can only take on a finite set of values (Day of the week, month of the year, ...)
-Categorical variables that take on just 2 values are called `binary variables`. (0 or 1, On or Off, Light or Dark, Fraud or Not, etc...)
+   Can only take on a finite set of values (Day of the week, month of the year, ...)
+   Categorical variables that take on just 2 values are called `binary variables`. (0 or 1, On or Off, Light or Dark, Fraud or Not, etc...)
