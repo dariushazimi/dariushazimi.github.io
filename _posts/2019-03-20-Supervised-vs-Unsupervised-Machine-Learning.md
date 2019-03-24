@@ -9,14 +9,19 @@ tags: [supervsied machine learning, unsupervised machien learning, ML]
 
 ## Supervised Machine Learning
 
-In supervised machine learning we feed the model a dataset that we have the asnwers to. The clean dataset will be fed to a model for processing and eventually the model will make some prediction based on the pattern it finds in the attributes of that dataset.
+In supervised machine learning we feed the model a dataset that we have the asnwers to. 
+In othe words, we have labels that are associated with the training dataset which are used to correct the algorithm. 
+
+The clean dataset will be fed to a model for processing and eventually the model will make some prediction based on the pattern it finds in the attributes of that dataset.
 
 Our dataset consists of rows and columns. Row are called *Observations* and columns are called *attributes*.
 
 
 ## Unsupervised Machine Learning
 
-In unsupervied Machine Learning there is no existing dataset. Basically in unsupervised ML, there is no training dataset and the outcomes are unknown. The model goes into the problem blindly. For example in case of detecting images of humans vs cats.
+In unsupervied Machine Learning there is no existing dataset labels. Basically in unsupervised ML, there is no training dataset and the outcomes are unknown. The model goes into the problem blindly. For example in case of detecting images of humans vs cats.
+
+Contrary to supervised learning, in unsupervised learning the model has to be setup right to learn structure in the data. In this case there are no labels that can be used to correct the model instead the model has to be setup just right to learn the patterns or structure.
 
 ## Machine Learning Process
 
