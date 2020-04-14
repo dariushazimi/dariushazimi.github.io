@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Deep learning in Python
-# subtitle: How to get the elements from a list using Map
+# subtitle: How to get elements from a list using Map
 tags: [Forward propagation, deep learning, DL]
 ---
 
